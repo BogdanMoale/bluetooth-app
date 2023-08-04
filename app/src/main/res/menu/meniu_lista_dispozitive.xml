@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="@string/action_settings"
+        android:id="@+id/Setari"
+        android:checkable="false" />
+    <item android:title="Porneste Bluetooth"
+        android:id="@+id/BluetoothPornit" />
+    <item android:title="Opreste Bluetooth"
+        android:id="@+id/BluetoothOprit" />
+    <item android:title="Info"
+        android:id="@+id/Info" />
+</menu>

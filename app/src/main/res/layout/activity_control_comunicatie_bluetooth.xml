@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:text="Stanga"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/butonStanga"
+        android:layout_alignBaseline="@+id/butonDreapta"
+        android:layout_alignBottom="@+id/butonDreapta"
+        android:layout_toLeftOf="@+id/butonInainte"
+        android:layout_toStartOf="@+id/butonInainte" />
+
+    <Button
+        android:text="Inainte"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="31dp"
+        android:id="@+id/butonInainte"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:text="Dreapta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/butonDreapta"
+        android:layout_below="@+id/butonInainte"
+        android:layout_toRightOf="@+id/butonInainte"
+        android:layout_toEndOf="@+id/butonInainte" />
+
+    <Button
+        android:text="Inapoi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/butonInapoi"
+        android:layout_below="@+id/butonStanga"
+        android:layout_toLeftOf="@+id/butonDreapta"
+        android:layout_toStartOf="@+id/butonDreapta" />
+
+    <Button
+        android:text="Stop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/butonOprire"
+        android:layout_alignBaseline="@+id/butonDreapta"
+        android:layout_alignBottom="@+id/butonDreapta"
+        android:layout_alignLeft="@+id/butonInainte"
+        android:layout_alignStart="@+id/butonInainte" />
+
+    <Button
+        android:text="Deconectare"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ButonDeconectare"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="Evitare Obstacole"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/butonObstacole"
+        android:layout_marginTop="36dp"
+        android:layout_below="@+id/butonInapoi"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="Urmareste Linia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/butonLinie"
+        android:layout_alignTop="@+id/butonObstacole"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="17dp"
+        android:layout_marginEnd="17dp" />
+
+    <Button
+        android:text=" Comanda  Vocala"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ButonVorbire"
+        android:layout_marginBottom="94dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
